@@ -10,6 +10,14 @@ The result records are in the `result21` directory.
 ### Reproducing UAD by running: 
 `cd codes && python run.py`
 
+### The overview of UAC-AD
+
+![](.\result21\overview.png "")
+
+### Main Result
+
+![](.\result21\main_result.png "")
+
 ### Experiment data types
 Raw data for Dataset A: https://doi.org/10.5281/zenodo.7609780.
 The metric types for Dataset A include CPU status, memory status, IO status, and network status.
@@ -51,5 +59,7 @@ The data type for Dataset C is restricted due to confidentiality requirements an
 │       └── unsupervised.pkl
 ├── requirements.txt
 └── result21
+    ├── main_result.png
+    ├── overview.png
     └── test.txt
 ```
